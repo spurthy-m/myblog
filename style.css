@@ -68,3 +68,7 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+/* List Item Spacing */
+ul li {
+  margin-bottom: 6px;
+}
