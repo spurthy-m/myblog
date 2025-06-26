@@ -71,4 +71,28 @@ footer {
 /* List Item Spacing */
 ul li {
   margin-bottom: 6px;
+}/* Section Styling - Highlight Each Section */
+section {
+  background-color: #f9f9ff;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
+/* Stylish Headings */
+h1, h2 {
+  font-family: 'Segoe UI', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Stylish Links */
+a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
