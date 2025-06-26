@@ -1,22 +1,70 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  color: #333;
-  padding: 20px;
-  text-align: center;
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav {
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #6c63ff;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+/* Section Titles */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #6c63ff;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #4a90e2;
-  font-weight: bold;
+/* Project Cards */
+.project {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
 }
 
-h1 {
-  color: #4a90e2;
+.project:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #777;
 }
